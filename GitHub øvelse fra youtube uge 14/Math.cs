@@ -9,12 +9,9 @@ namespace GitHub_øvelse_fra_youtube_uge_14
     internal class Math
         // Add method
     {
-        internal int Add()
-        { 
-            int x1 = 1; 
-            int x2 = 2;
-            int Sum = x1 + x2;
-            return Sum;
-        }
+        internal double Add(double x1, double x2) => x1 + x2;
+        
+          
+        
     }
 }
